@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'monospace';
+  overflow: hidden;
+}
+
+.timeline {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: (auto)[10]; */
+      grid-template-columns: repeat(10, auto);
+}
+
+.timeline .divtimeline {
+  background-color: white;
+  height: 100vh;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.heading {
+  font-size: 5em;
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  opacity: 0;
+  z-index: 2;
+}
+
+.subtitle {
+  font-size: 5em;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 2;
+}
+
+.subtitles {
+  opacity: 0;
+}
+
+.button {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+  z-index: 2;
+  background-color: white;
+  color: #909cff;
+  padding: 20px 50px;
+  font-size: large;
+  border: none;
+  border-radius: 2em;
+}
+/*# sourceMappingURL=main.css.map */

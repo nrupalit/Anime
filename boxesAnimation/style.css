@@ -1,0 +1,23 @@
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    display: inline-block;
+}
+
+.red{background-color: red;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.yellow{background-color: yellowgreen;}
+.orange{background-color: orange;}
+
+.button{
+    margin: 100px;
+    color: rgba(255, 17, 0, 0.719);
+    background-color: #FFF;
+    border: rgba(255, 17, 0, 0.719), 2px;
+    border-color: rgba(255, 17, 0, 0.719);
+    padding: 20px;
+}
+
