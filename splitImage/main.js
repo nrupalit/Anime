@@ -1,17 +1,4 @@
 
-
-let t1 = anime.timeline({
-    easing: 'easeOutExpo',
-    duration: 750
-})
-
-t1.add({
-    targets: '#slice',
-    rotateY: '-50deg',
-    scale: 0.5,
-    
-})
-
 var Slice = function() {
     var sliceDiv = document.getElementById('slice');
     var gridX = 4;
@@ -19,7 +6,8 @@ var Slice = function() {
     var h = sliceDiv.offsetHeight;
     var img = document.querySelectorAll('#slice img')[0].src;
     var delay = 0.05;
-
+    
+    console.log(sliceDiv);
     console.log(w, h, img);
 
     this.create = function(){
@@ -61,3 +49,21 @@ var Slice = function() {
 window.onload = function(){
     var slice = Slice();
 }
+
+
+
+let t1 = anime.timeline({
+    easing: 'easeOutExpo',
+    duration: 750
+})
+
+t1.add({
+    targets: '#slice',
+    translateY: '-50deg',
+    scale: 0.5,
+    duration: 1000,
+    easing: 'cubicBezier(0.000, 1.040, 1.000, -0.070)',
+    delay: function(el, i, l){ return i * 1300},
+    opacity: 1,
+    
+})

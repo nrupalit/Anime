@@ -14,10 +14,10 @@ body {
 #slice img {
     width: 100%;
     height: auto;
-    opacity: 1;
+    opacity: 0;
 }
 
-/* #slice div {
+#slice div {
     position: absolute;
     z-index: 1;
     background-repeat: no-repeat;
@@ -31,4 +31,4 @@ body {
     opacity: 1;
     transform: rotateY(0deg) translateY(0);
     transition-delay: 0.5s;
-} */
+}

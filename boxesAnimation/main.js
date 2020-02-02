@@ -78,7 +78,7 @@ const animation = anime({
     autoplay: false,
     delay: function(el, i, l){ return i * 1300}
 });
-
+console.log(animation);
 document.querySelector('.boxes .button.play').onclick = animation.play;
 document.querySelector('.boxes .button.pause').onclick = animation.pause;
 
