@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+h1{
+  opacity: 0;
+}
+/* 
+.carousel{
+  
+} */
+.carousel-item{
+  width: 1200px;
+  height: 800px;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.carousel-item a {
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
