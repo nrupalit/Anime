@@ -8,3 +8,6 @@ svgAnimation is SVG image moving.<br />
 It has two section start and replay.<br />
 ![SVG](https://github.com/nrupalit/Anime/blob/master/animeImages/svgAnimation.PNG)<br />
 and splitImage is still under construction.
+![Image Split Start](https://github.com/nrupalit/Anime/blob/master/animeImages/gridImages.png)<br />
+and <br />
+![Image Split End](https://github.com/nrupalit/Anime/blob/master/animeImages/gridImage.png)<br />
