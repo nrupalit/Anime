@@ -6,7 +6,7 @@ let Slice = () => {
     var object = document.querySelectorAll('.slice .image');
     for(i = 0; i < object.length; i++){
         var image = [];
-        console.log(image);
+        console.log(object.length);
         image = document.querySelectorAll('.slice .image')[i].src;
         // console.log(sliceclass);
         this.create = function(){
@@ -26,7 +26,7 @@ let Slice = () => {
                 tran.style.opacity = 0;
     
     
-                // this.console.log(tran);
+                this.console.log(height);
                 
             }
             let t1 = anime.timeline({
